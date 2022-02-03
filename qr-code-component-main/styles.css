@@ -1,0 +1,92 @@
+@import url('https://fonts.google.com/specimen/Outfit')
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+	font-family: 'Outfit', sans-serif;
+	font-size: 15px;
+}
+
+.frame {
+	max-width: 400px;
+	max-height: 700px;
+  background-color: #f2f2f2;
+	border-radius: 20px;
+	text-align: center;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 30px;
+}
+
+.qr-code-frame {
+  background-color: #096feb;
+}
+
+#qrCode {
+	width: 100%;
+	border-radius: 20px;
+}
+
+.hero-bit {
+	font-weight: 700;
+	color: hsl(218, 44%, 22%);
+	font-size: 2em;
+}
+
+.sub-hero {
+	font-weight: 400;
+	color: hsl(220, 15%, 55%);
+	font-size: 1.25em;
+}
